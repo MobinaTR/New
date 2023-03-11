@@ -1,0 +1,170 @@
+.container{
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 660px;
+  width: 550px;
+  padding: 15px;
+}
+.container::after {
+  content: "";
+  background-image: url("../images/cloud.jpg");
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  border-radius: 5px;
+  box-shadow: 0 0 5 5 gray;
+}
+  .searchForm {
+  position: relative;
+  left: 160px;
+}
+
+.searchBar {
+  border-radius: 8px;
+  border: solid 2px gray;
+  background-color: rgb(216, 223, 235) ;
+}
+
+.searchButton {
+  position: relative;
+  left: 10px;
+  color: darkslategray;
+}
+
+.searchLocation {
+  position: relative;
+  left: 15px;
+  color: darkslategray;
+  }
+
+.example11, .example22, .example33, .example44{
+  position: absolute;
+  right: 10px;
+  background: white;
+  opacity: 0.5;
+  border-radius: 10px;
+  
+}
+.example11{
+  top:200px
+}
+.example22{ 
+  top: 280px;
+}
+.example33{
+  top: 360px;
+
+}
+.example44{
+  top: 440px;
+}
+.example1,
+.example2,
+.example3,
+.example4 {
+  position: absolute;
+  left: 10px;
+  background: white;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+.example1 {
+  top: 200px
+}
+
+.example2 {
+  top: 280px;
+}
+
+.example3 {
+  top: 360px;
+}
+
+.example4 {
+  top: 440px;
+}
+footer{
+  display: inline-block;
+  position: absolute;
+  bottom: 5px;
+  left: 85px;
+  font-family: 'Red Hat Mono', monospace;}
+.app{
+  z-index: 999;
+  width: 340px;
+  height: 570px;
+  position: absolute;
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  margin-left: 95px;
+  border-radius: 20px;
+  border: solid 3px rgba(69, 74, 144, 0.2);
+  background-color: rgb(0 0 0 /0.2);
+}
+.temp{
+  position: relative;
+  left: 135px;
+  top: 75px;
+  font-size: 80px;
+  font-family: 'Roboto', sans-serif;
+}
+.unit{
+  font-size: 30px;
+  position: relative;
+  bottom: 25px;
+  right: 15px;
+}
+.weatherIcon{
+  position: relative;
+  left: 50px;
+  bottom: 105px;
+  width: 250;
+}
+.city{
+  position: relative;
+  font-size: 70px;
+  bottom: 138px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  position: relative;
+  font-size: 20px;
+  bottom: 150px;
+  text-align: center;
+}
+.card{
+  position: relative;
+  bottom: 140px;
+  margin: auto;
+  background-color: rgba(69, 74, 144, 0.2);
+}
+.situation{
+  text-align: center;
+}
+.forcast{
+position: relative;
+ bottom: 100px;
+ left: 35px;
+}
+.weekDay{
+  position: absolute;
+  font-size: 20px;
+ left: 10px;
+ 
+}
+.time{
+  position: absolute;
+    font-size: 20px;
+    left: 275px;
+  font-size: 20px;
+}
